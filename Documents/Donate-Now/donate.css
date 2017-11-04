@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    padding: 20px;
+    height: 110px;
+    width: 100%;
+    text-align: center;
+}
+.menu {
+    position: relative;
+    height: 70px;
+    width: 90%;
+    margin-left: 60px;
+    background-color: #333333;
+}
+  
+.list ul {
+    width: 100%;
+    list-style-type: none;
+    padding: -20px -40px;
+   
+   
+
+}
+.list li {
+    width: 120px;
+    height: 70px;
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid black;
+
+   
+   
+
+}
+.list li:hover .sub-menu{
+    display: block;
+    background-color: black;
+    
+}
+.list a {
+    display: inline-block;
+    text-decoration: none;
+    display: block;
+    color: white;
+    background-color: #333333;
+}
+.list a:hover {
+    color:white;
+    background-color: black;
+
+}
+.sub-menu {
+    position: absolute;
+    display: none;
+    color: white;
+    background-color: black;
+    width: 200px;
+    top:70px;
+    
+
+}
+.sub-menu li {
+    display: block;
+    background-color: black;
+    width: 180px;
+    border-bottom: 1px solid #333333;
+    
+    
+}
+.sub-menu a:hover {
+    color: red;
+    background-color: black;
+}
+.item  {
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    margin-top: 0;
+    
+    padding: 20px 15px 15px 18px;
+ 
+}
+
+.option {
+    background: black;
+    color: white;
+    margin-left: 10px;
+    padding-top:20px;
+    
+}
+.j {
+    position: relative;
+    top: -50px;
+    height: 90px;
+    width: 148px;
+    left: 10px;
+    float: right;
+    background: url('https://act.friendssfpl.org/image/volunteer.png') no-repeat
+}
+
+.d {
+
+    position: relative;
+    top: -80px;
+    float: right;
+    height: 90px;
+    width: 148px;
+    background: url('https://act.friendssfpl.org/image/donate.png') no-repeat
+}
+.j {
+    position: relative;
+    top: -80px;
+    height: 90px;
+    width: 148px;
+    left: 10px;
+    float: right;
+    background: url('https://act.friendssfpl.org/image/volunteer.png') no-repeat
+}
+.d-j {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    color: #ffffff;
+    position: absolute;
+    top: 28px;
+    left: 49px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
